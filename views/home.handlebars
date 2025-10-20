@@ -1,0 +1,13 @@
+<section class="produtos">
+  <ul>
+    {{#each produtos}}
+      <li class="produto {{#if promocao}}promocao{{/if}}">
+        <h3>{{nome}}</h3>
+        <p>Preço: R$ {{preco}}</p>
+        {{#if promocao}}
+          <span class="badge">Em promoção!</span>
+        {{/if}}
+      </li>
+    {{/each}}
+  </ul>
+</section>
