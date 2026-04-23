@@ -67,7 +67,7 @@ lista-produtos-handlebars/
 
 ---
 
-## 💡 O que mostrar na apresentação
+## 💡 O que mostra na apresentação
 
 - Estrutura organizada (controllers, rotas, views).  
 - Uso do Handlebars com `{{#each}}` e `{{#if}}`.  
